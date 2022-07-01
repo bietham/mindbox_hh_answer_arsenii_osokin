@@ -1,0 +1,86 @@
+Предположим, что для Продуктов у нас есть Таблица Products с полями productId (PK) и productName;
+для категорий - таблица Categories с полями categoryId (PK) и categoryName
+
+Т.к. mssql реляционная баа данных, и в данном случае мы имеем отношение многие ко многим,
+то у нас должна быть таблица Products, с композитным PK на productId и categoryId, FK categoryId, FK productId
+
+Тогда, для того чтобы достать все значения productName, с совпадающими им значениями categoryName
+Нам нужно сделать такой селект:
+
+SELECT
+	P.productName,
+	C.categoryName
+FROM
+	Products as P
+LEFT JOIN
+	ProductToCategory as PC on P.productId =PC.productId 
+LEFT JOIN
+	Categories as C on PC.categoryId = C.categoryId
+
+Для того чтобы гарантировать селект всех продуктов, даже для них нет категории, мы селектим из Products и лефт джоиним по ProductToCategory.
+
+
+
+
+
+
+
+Пример рабочего запроса для задания:
+
+********************************************************
+
+CREATE TABLE Products
+(
+productId int IDENTITY (1, 1) NOT NULL,
+productName nvarchar(255),
+CONSTRAINT PK_Products_productId PRIMARY KEY CLUSTERED (productId),
+)
+
+CREATE TABLE Categories
+(
+categoryId int IDENTITY (1, 1) NOT NULL,
+categoryName nvarchar(255),
+CONSTRAINT PK_Categories_categoryId PRIMARY KEY CLUSTERED (categoryId),
+)
+
+
+CREATE TABLE ProductToCategory
+(
+productId int,
+categoryId int,
+CONSTRAINT product_category_pk PRIMARY KEY (productId, categoryId),
+CONSTRAINT FK_Products FOREIGN KEY (productId) REFERENCES Products (productId),
+CONSTRAINT FK_Categories FOREIGN KEY (categoryId) REFERENCES Categories (categoryId),
+)
+
+INSERT INTO Products (productName)
+VALUES ('soda'),
+('burger'),
+('sandwich');
+
+INSERT INTO Categories (categoryName)
+VALUES ('fastfood'),
+('drinks');
+
+INSERT INTO ProductToCategory (productId, categoryId)
+VALUES (1, 1),
+(2, 1),
+(1, 2);
+
+
+SELECT
+	P.productName,
+	C.categoryName
+FROM
+	Products as P
+LEFT JOIN
+	ProductToCategory as PC on P.productId =PC.productId 
+LEFT JOIN
+	Categories as C on PC.categoryId = C.categoryId
+
+********************************************************
+
+
+
+
+

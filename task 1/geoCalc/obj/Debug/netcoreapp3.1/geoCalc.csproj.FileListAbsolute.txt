@@ -1,0 +1,10 @@
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\bin\Debug\netcoreapp3.1\geoCalc.deps.json
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\bin\Debug\netcoreapp3.1\geoCalc.dll
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\bin\Debug\netcoreapp3.1\geoCalc.pdb
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.csproj.AssemblyReference.cache
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.AssemblyInfoInputs.cache
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.AssemblyInfo.cs
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.csproj.CoreCompileInputs.cache
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.dll
+C:\Users\AOsokin2\source\repos\geoCalc\geoCalc\obj\Debug\netcoreapp3.1\geoCalc.pdb

@@ -1,0 +1,17 @@
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\Program.exe
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\Program.deps.json
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\Program.runtimeconfig.json
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\Program.runtimeconfig.dev.json
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\Program.dll
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\Program.pdb
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\geoCalc.dll
+C:\Users\AOsokin2\source\repos\geoCalc\Program\bin\Debug\netcoreapp3.1\geoCalc.pdb
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.csproj.AssemblyReference.cache
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.AssemblyInfoInputs.cache
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.AssemblyInfo.cs
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.csproj.CoreCompileInputs.cache
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.csproj.CopyComplete
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.dll
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.pdb
+C:\Users\AOsokin2\source\repos\geoCalc\Program\obj\Debug\netcoreapp3.1\Program.genruntimeconfig.cache

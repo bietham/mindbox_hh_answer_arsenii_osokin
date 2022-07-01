@@ -1,0 +1,1 @@
+# mindbox_hh_answer_arsenii_osokin

@@ -4,6 +4,8 @@
 
 Позиция: Cтажер-разработчик C# (fullstack / back-end) https://izhevsk.hh.ru/vacancy/67283055?hhtmFrom=vacancy_response
 
+Заявка от: Арсений Осокин
+
 Ответ на первое задание:
 
 В папке "task 1"
